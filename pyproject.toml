@@ -4,19 +4,19 @@ requires = ['meson-python', 'pyyaml', 'pybind11', 'jinja2', 'ply']
 
 [project]
 name = 'rpi-libcamera'
-version = '0.1a11'
+version = '0.1a12'
 description = 'libcamera python bindings'
 readme = 'README.md'
 
 [project.urls]
-Source = "https://github.com/raspberrypi/pylibcamera"
-"RPi libcamera Source" = "https://github.com/raspberrypi/libcamera"
+Source = "https://github.com/krleon/pylibcamera"
+"RPi libcamera Source" = "https://github.com/krleon/libcamera"
 
 [tool.meson-python.args]
 setup = [
-    '-Drevision=v0.5.2+rpt20250903',
-    '-Drepository=https://github.com/raspberrypi/libcamera.git',
-    '-Dversion=v0.5.2+99-bfd68f78'
+    '-Drevision=framos',
+    '-Drepository=https://github.com/krleon/libcamera.git',
+    '-Dversion=unknown'
 ]
 
 [tool.flit.module]
